@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
+
+.body{
   background-image: url(./img.png);
   background-position: center center;
   background-size: cover;
@@ -47,4 +48,15 @@ main {
 }
 main h3 {
   color: #feab51;
+}
+
+@media screen and(max-width:768px) {
+    .body{
+      background-color: #feab51;
+    }
+    aside {
+      height: auto;
+      width: 100%;
+      
+    }
 }
