@@ -52,11 +52,16 @@ main h3 {
 
 @media screen and(max-width:768px) {
     .body{
-      background-color: #feab51;
+      flex-direction: column-reverse;
+    }
+    main {
+      min-height: 40vh;
     }
     aside {
       height: auto;
       width: 100%;
-      
+    }
+    .special {
+      display: none;
     }
 }
